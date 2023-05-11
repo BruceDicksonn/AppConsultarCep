@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="18dp"
+    tools:context=".ResultSearchCepFragment">
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="18dp">
+
+        <TableRow android:background="@drawable/table_shape">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:gravity="center|start"
+                android:padding="12dp"
+                android:text="Logradouro/Nome"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Bairro/Distrito"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Localidade/UF"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="CEP"
+                android:textColor="#fff" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/table_outputs"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/output_logradouro"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:padding="12dp"
+                android:text="Rua Três (At da Vitória)"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/output_bairro"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Anjo da Guarda"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/output_uf"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="São Luís/MA"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/output_cep"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="65086-000"
+                android:textColor="#000" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/buttonNovaBusca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0073B1"
+        android:paddingStart="24dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Nova Busca"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/table" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

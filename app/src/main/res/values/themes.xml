@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ConsultarCep" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#0073B1</item>
+        <item name="colorPrimaryDark">#004063</item>
+        <item name="colorAccent">#004063</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
