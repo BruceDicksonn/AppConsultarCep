@@ -1,10 +1,10 @@
 # AppConsultarCep
 
-#Descrição:
+## Descrição:
 
 O projeto consiste em fornecer um aplicativo que retorne ao usuário informações a respeito de um endereço com base no cep fornecido.
 
-#Tecnologias
+## Tecnologias
 
 <ul>
   <li>Android Studio</li>
