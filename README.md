@@ -11,3 +11,7 @@ O projeto consiste em fornecer um aplicativo que retorne ao usuário informaçõ
   <li>Java</li>
   <li>Retrofit</li>
 </ul>
+
+## Sobre
+
+Alguns conceitos que foram abordados neste projeto: Serialização de objetos e json, requisições Restful e Modularização de views(usando Fragments).
